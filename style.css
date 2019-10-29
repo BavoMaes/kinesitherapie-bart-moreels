@@ -17,10 +17,29 @@ h1 {
     font-weight: 400;
 }
 
+h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.45;
+    font-weight: 300;
+}
+
 .page {
     max-width: 1470px;
     background: #fff;
     margin: 0 auto;
+}
+
+.half__block {
+    width: 50%;
+}
+
+.container {
+    padding: 0 120px;
 }
 
 /* Navigation */
@@ -149,3 +168,34 @@ h1 {
     background-size: cover;
 }
 
+/* About */
+
+.about {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.about__image {
+    background: #f0f0f0;
+    height: 300px;
+}
+
+.about__content {
+    margin-left: 66px;
+}
+
+.about ul {
+    margin-top: 40px;
+    padding: 0;
+    list-style-type: none;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.about li {
+    border-top: 1px solid #e8e8e8;
+}
+
+.about li p {
+    margin: 12px 0;
+}
