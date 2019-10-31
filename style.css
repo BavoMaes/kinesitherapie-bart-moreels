@@ -9,7 +9,6 @@ body {
     font-weight: 300;
     color: #000;
     margin: 0;
-    background: #e8e8e8;
 }
 
 h1 {
@@ -32,6 +31,8 @@ p {
     max-width: 1470px;
     background: #fff;
     margin: 0 auto;
+    box-shadow: 0 0 40px -5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 40px -7.5px rgba(0, 0, 0, 0.075);
 }
 
 .half__block {
