@@ -10,16 +10,31 @@
 </head>
 <body>
     <div class="page">
-        <nav class="nav">
-            <img src="img/logo.jpg" class="nav__logo"/>
-            <ul class="nav__links">
-                <li class="nav__item"><a class="nav__link nav__link--active" href="/">Home</a></li>
-                <li class="nav__item"><a class="nav__link" href="/">Over mij</a></li>
-                <li class="nav__item"><a class="nav__link" href="/">Praktijk</a></li>
-                <li class="nav__item"><a class="nav__link" href="/">Contact</a></li>
-                <li class="nav__item"><a class="nav__link nav__link--cta" href="/">Maak een afspraak</a></li>
-            </ul>
-        </nav>
+        <div class="header">
+            <div class="header--left">
+                <img class="header__logo" src="img/logo.jpg" class="header__logo">
+                <nav class="header__nav">
+                    <ul class="header__links">
+                        <li class="header__item"><a class="header__link header__link--active" href="/">Home</a></li>
+                        <li class="header__item"><a class="header__link" href="/">Over mij</a></li>
+                        <li class="header__item"><a class="header__link" href="/">Praktijk</a></li>
+                        <li class="header__item"><a class="header__link" href="/">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header--right">
+                <a class="header__cta" href="/">Maak een afspraak</a>
+            </div>
+        </div>
+        <!-- <nav class="nav">
+            <div class="nav--left">
+                <img src="img/logo.jpg" class="nav__logo"/>
+                
+            </div>
+            <div class="nav--right">
+                <a class="nav__link nav__link--cta" href="/">Maak een afspraak</a>
+            </div>
+        </nav> -->
         <section id="hero">
             <h1 class="hero__title">Kinesitherapie en osteopathie voor een gezond lichaam.</h1>
             <p class="hero__subtitle">Lorem ipsum dolor sit amed dium consectetur adipiscing elit.</p>
