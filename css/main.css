@@ -454,10 +454,10 @@ p {
     text-decoration: none; }
     .header__link--active {
       position: relative;
-      color: #ff3448 !important; }
+      color: #0057ff !important; }
       .header__link--active::after {
         content: "";
-        background-color: #ff3448;
+        background-color: #0057ff;
         width: 100%;
         height: 3px;
         position: absolute;
@@ -467,7 +467,7 @@ p {
     font-size: 0.85rem;
     font-weight: 400;
     color: #fff !important;
-    background: #ff3448;
+    background: #0057ff;
     border-radius: 5px;
     padding: 9px 15px; }
 
@@ -498,13 +498,13 @@ p {
     border-radius: 5px;
     padding: 15px 30px;
     cursor: pointer;
-    border: 2px solid #ff3448; }
+    border: 2px solid #0057ff; }
     .hero__button--primary {
-      background: #ff3448;
+      background: #0057ff;
       color: #fff;
       margin-right: 5px; }
     .hero__button--secondary {
-      color: #ff3448;
+      color: #0057ff;
       margin-right: 5px; }
   .hero__image {
     margin-top: 60px;
