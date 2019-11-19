@@ -55,15 +55,6 @@
         &--active {
             position: relative;
             color: $accent !important;
-
-            &::after {
-                content: "";
-                background-color: $accent;
-                width: 100%;
-                height: 3px;
-                position: absolute;
-                bottom: 0;
-            }
         }
     }
 
