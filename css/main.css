@@ -566,10 +566,17 @@ p {
     -webkit-box-flex: 1;
     flex: 1; }
   .info__icon {
-    background-color: #fff;
-    width: 75px;
-    height: 75px;
+    width: 60px;
+    height: 60px;
     border-radius: 5px; }
+    .info__icon--kine {
+      background-image: url("../img/kine.svg"); }
+    .info__icon--osteo {
+      background-image: url("../img/osteo.svg"); }
+    .info__icon--sport {
+      background-image: url("../img/sport.svg"); }
+    .info__icon--health {
+      background-image: url("../img/health.svg"); }
   .info__skill {
     font-weight: 500;
     margin: 24px 0 48px 0; }
@@ -601,3 +608,8 @@ p {
 
 .footer {
   height: 300px; }
+  .footer__credit {
+    font-size: 0.5rem; }
+    .footer__credit a {
+      color: #000 !important;
+      text-decoration: none !important; }

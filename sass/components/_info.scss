@@ -20,10 +20,25 @@
     }
 
     &__icon {
-        background-color: #fff;
-        width: 75px;
-        height: 75px;
+        width: 60px;
+        height: 60px;
         border-radius: 5px;
+
+        &--kine {
+            background-image: url("../img/kine.svg");
+        }
+
+        &--osteo {
+            background-image: url("../img/osteo.svg");
+        }
+
+        &--sport {
+            background-image: url("../img/sport.svg");
+        }
+
+        &--health {
+            background-image: url("../img/health.svg");
+        }
     }
 
     &__skill {

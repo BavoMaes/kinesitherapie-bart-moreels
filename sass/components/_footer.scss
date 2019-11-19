@@ -1,3 +1,12 @@
 .footer {
     height: 300px;
+
+    &__credit {
+        font-size: 0.5rem;
+
+        a {
+            color: #000 !important;
+            text-decoration: none !important;
+        }
+    }
 }
