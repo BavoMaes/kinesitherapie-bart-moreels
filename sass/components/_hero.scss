@@ -2,12 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 60px;
 
     &__title {
-        margin: 60px 0 0 0;
         max-width: 800px;
         text-align: center;
-        margin-bottom: 0;
         line-height: 1.1;
     }
 
@@ -21,27 +20,6 @@
         margin-top: 36px;
     }
 
-    &__button {
-        display: inline-block;
-        font-size: 1.2rem;
-        font-weight: 400;
-        border-radius: 5px;
-        padding: 15px 30px;
-        cursor: pointer;
-        border: 2px solid $accent;
-
-        &--primary {
-            background: $accent;
-            color: #fff;
-            margin-right: 5px;
-        }
-
-        &--secondary {
-            color: $accent;
-            margin-right: 5px;
-        }
-    }
-
     &__image {
         margin-top: 60px;
         background-color: #f0f0f0;
@@ -51,5 +29,11 @@
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
+    }
+
+    &__button {
+        &:visited, &:active, &:link {
+            text-decoration: none;
+        }
     }
 }

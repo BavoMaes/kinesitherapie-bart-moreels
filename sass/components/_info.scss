@@ -1,11 +1,10 @@
 .info {
-    margin-top: 60px;
     background: #f0f0f0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 
     &__skills {
         display: flex;
@@ -20,8 +19,8 @@
     }
 
     &__icon {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         border-radius: 5px;
 
         &--kine {
@@ -34,6 +33,9 @@
 
         &--sport {
             background-image: url("../img/sport.svg");
+            height: 60px;
+            width: 60px;
+            margin-bottom: -10px;
         }
 
         &--health {
@@ -43,7 +45,7 @@
 
     &__skill {
         font-weight: 500;
-        margin: 24px 0 48px 0;
+        margin: 24px 0;
     }
 
     &__content {

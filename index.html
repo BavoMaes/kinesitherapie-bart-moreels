@@ -17,30 +17,30 @@
             <div class="header--right">
                 <nav class="header__nav">
                     <ul class="header__links">
-                        <li class="header__item"><a class="header__link header__link--active" href="/">Home</a></li>
-                        <li class="header__item"><a class="header__link" href="/">Over mij</a></li>
-                        <li class="header__item"><a class="header__link" href="/">Praktijk</a></li>
+                        <li class="header__item"><a class="header__link" href="#home">Home</a></li>
+                        <li class="header__item"><a class="header__link" href="#overmij">Over mij</a></li>
+                        <li class="header__item"><a class="header__link" href="#praktijk">Praktijk</a></li>
                     </ul>
                 </nav>
-                <a class="header__cta" href="/">Maak een afspraak</a>
+                <a class="header__cta" href="#afspraak">Maak een afspraak</a>
             </div>
         </div>
-        <section class="hero" id="hero">
+        <section class="hero" id="home">
             <h1 class="hero__title">Kinesitherapie Bart Moreels</h1>
             <p class="hero__subtitle">Melkwegel 9, Heusden (Destelbergen), Oost-Vlaanderen, België</p>
             <div class="hero__cta">
-                <a class="hero__button hero__button--primary">Maak een afspraak</a>
-                <a class="hero__button hero__button--secondary">Meer over mij</a>
+                <a class="button button--primary hero__button" href="#afspraak">Maak een afspraak</a>
+                <a class="button button--secondary hero__button" href="#overmij">Meer over mij</a>
             </div>
             <div class="hero__image"></div>
         </section>
-        <section id="about"></section>
+        <section id="overmij">
             <div class="container about">
                 <div class="half__block">
                     <img class="about__image" src="img/bart_about.jpg" alt="Kinesist Bart Moreels verzorgt een patiënt">
                 </div>
                 <div class="half__block about__content">
-                    <h2>U bent in goeie handen</h2>
+                    <h2>U bent in goede handen</h2>
                     <p>Ik werk als geconventioneerde kinesist in mijn eigen praktijk te Heusden. Ik ben afgestudeerd als Master of Science in de Kinesitherapie met als specialisatie Sport. Ook heb ik mij
                     tijdens mijn studies bijgeschoold als SpartaNova Expert en Redcord Trainer.</p>
                     <p class="about__subtitle">U kan bij mij onder andere terecht voor:</p>
@@ -79,7 +79,7 @@
                 </div>
             </div>
         </section>
-        <section id="info">
+        <section>
             <div class="container info">
                 <div class="info__skills">
                     <div class="info__block">
@@ -145,9 +145,27 @@
         </section>
         <section>
             <iframe width="100%" height="450" frameborder="0" style="border:0"
-                src="https://www.google.com/maps/embed/v1/place?q=place_id:EidNZWxrd2VnZWwgOSwgOTA3MCBEZXN0ZWxiZXJnZW4sIEJlbGdpdW0iMBIuChQKEgnrsWCj2HXDRxH38iU0TNMGhRAJKhQKEglvy1vLdXbDRxH3KgK05ZMVmA&key=AIzaSyALJhzAUwjIHNTnp0DhUnh10y7kU69W0VE&zoom=12"
+                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ6TDYJb51w0cRHdQ5MplRTHM&key=AIzaSyALJhzAUwjIHNTnp0DhUnh10y7kU69W0VE&zoom=15"
                 allowfullscreen>
             </iframe>
+        </section>
+        <section id="afspraak">
+            <div class="container contact">
+                <div class="half__block">
+                    <img class="about__image" src="img/bart_contact.jpg" alt="Kinesist Bart Moreels verzorgt een patiënt">
+                </div>
+                <div class="half__block contact__content">
+                    <h2>Maak een afspraak</h2>
+                    <p class="contact__text">Wilt u graag een afspraak maken? Of zit u met een vraag waarop u graag een antwoord zou krijgen? Dan kan u contact op nemen met mij via onderstaand formulier.</p>
+                    <form class="contact__form">
+                        <input class="contact__input" type="text" name="naam" placeholder="Naam">
+                        <input class="contact__input" type="text" name="email" placeholder="E-mailadres">
+                        <input class="contact__input" type="text" name="phone" placeholder="Telefoonnummer">
+                        <textarea class="contact__input" name="message" placeholder="Bericht" rows="6" style="resize:none"></textarea>
+                        <button class="button button--primary contact__button" type="submit">Bericht versturen</button>
+                    </form>
+                </div>
+            </div>
         </section>
         <footer>
             <div class="container footer">
