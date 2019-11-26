@@ -57,9 +57,14 @@
         align-items: center;
         height: 100%;
         text-decoration: none;
+        transition: color 0.2s;
 
         &--active {
             position: relative;
+            color: $accent !important;
+        }
+
+        &:hover {
             color: $accent !important;
         }
     }
