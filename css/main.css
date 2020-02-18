@@ -377,8 +377,8 @@ body {
   color: #000; }
 
 h1 {
-  font-size: 3rem;
-  font-weight: 400;
+  font-size: 3.5rem;
+  font-weight: 500;
   margin: 0; }
 
 h2 {
@@ -407,10 +407,10 @@ p {
 
 .button {
   display: inline-block;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   font-weight: 400;
   border-radius: 5px;
-  padding: 15px 30px;
+  padding: 10px 20px;
   cursor: pointer;
   border: 2px solid #4267b2; }
   .button--primary {
@@ -437,7 +437,7 @@ p {
   background: #fff;
   padding: 0 30px;
   box-sizing: border-box;
-  box-shadow: 0 -15px 40px -15px rgba(0, 0, 0, 0.4); }
+  border-bottom: 1px solid #e8e8e8; }
   .header--left {
     display: -webkit-box;
     display: flex;
@@ -506,20 +506,39 @@ p {
     text-align: center;
     line-height: 1.1; }
   .hero__subtitle {
-    margin: 20px 0 0 0;
-    color: #8e8e8e;
-    font-size: 1.1rem; }
+    margin: 30px 0 0 0;
+    font-size: 1.2rem; }
   .hero__cta {
     margin-top: 36px; }
-  .hero__image {
-    margin-top: 60px;
-    background-color: #f0f0f0;
-    height: 450px;
+  .hero__banner {
     width: 100%;
-    background-image: url("../img/bart_hero.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover; }
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 20px; }
+  .hero__row {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    align-items: flex-start; }
+    .hero__row--second {
+      margin-top: -80px; }
+  .hero__image {
+    -webkit-box-flex: 0;
+    flex: 0;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: 0 20px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1); }
+  .hero #img2, .hero #img6, .hero #img9, .hero #img13 {
+    margin-top: 40px; }
+  .hero #img3, .hero #img5, .hero #img10, .hero #img12 {
+    margin-top: 80px; }
+  .hero #img4, .hero #img11 {
+    margin-top: 120px; }
   .hero__button:visited, .hero__button:active, .hero__button:link {
     text-decoration: none; }
 
@@ -538,7 +557,8 @@ p {
     -o-object-fit: cover;
     object-fit: cover;
     -o-object-position: center center;
-    object-position: center center; }
+    object-position: center center;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1); }
   .about__content {
     margin-left: 66px; }
   .about__subtitle {
@@ -625,7 +645,8 @@ p {
     -o-object-fit: cover;
     object-fit: cover;
     -o-object-position: center center;
-    object-position: center center; }
+    object-position: center center;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1); }
   .praktijk__content {
     margin-right: 60px; }
   .praktijk__text {
@@ -636,7 +657,6 @@ p {
   display: flex;
   -webkit-box-align: center;
   align-items: center;
-  box-shadow: 0 15px 40px -50px rgba(0, 0, 0, 0.4);
   padding-top: 100px;
   padding-bottom: 100px; }
   .contact__content {

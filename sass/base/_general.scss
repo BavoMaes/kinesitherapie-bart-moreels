@@ -9,8 +9,8 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
-    font-weight: 400;
+    font-size: 3.5rem;
+    font-weight: 500;
     margin: 0;
 }
 
@@ -45,10 +45,10 @@ p {
 
 .button {
     display: inline-block;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
     font-weight: 400;
     border-radius: 5px;
-    padding: 15px 30px;
+    padding: 10px 20px;
     cursor: pointer;
     border: 2px solid $accent;
 
