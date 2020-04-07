@@ -525,14 +525,14 @@ p {
     .hero__row--second {
       margin-top: -80px; }
   .hero__image {
-    -webkit-box-flex: 0;
-    flex: 0;
-    flex-grow: 0;
-    flex-shrink: 0;
-    margin: 0 20px;
-    width: 200px;
-    border-radius: 5px;
-    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1); }
+    margin-top: 60px;
+    background-color: #f0f0f0;
+    height: 450px;
+    width: 100%;
+    background-image: url("../img/bart_hero.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; }
   .hero #img2, .hero #img6, .hero #img9, .hero #img13 {
     margin-top: 40px; }
   .hero #img3, .hero #img5, .hero #img10, .hero #img12 {
