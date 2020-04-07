@@ -47,18 +47,6 @@
         background-size: cover;
     }
 
-    #img2, #img6, #img9, #img13 {
-        margin-top: $img_margin;
-    }
-
-    #img3, #img5, #img10, #img12 {
-        margin-top: $img_margin * 2;
-    }
-
-    #img4, #img11 {
-        margin-top: $img_margin * 3;
-    }
-
     &__button {
         &:visited, &:active, &:link {
             text-decoration: none;

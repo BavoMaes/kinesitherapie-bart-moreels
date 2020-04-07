@@ -374,7 +374,8 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  color: #000; }
+  color: #000;
+  background-color: #f5f5f5; }
 
 h1 {
   font-size: 3.5rem;
@@ -393,10 +394,10 @@ p {
 
 .page {
   padding-top: 65px;
+  padding-bottom: 0;
   max-width: 1470px;
   background: #fff;
   margin: 0 auto;
-  box-shadow: 0 0 40px -7.5px rgba(0, 0, 0, 0.075);
   overflow: hidden; }
 
 .half__block {
@@ -407,10 +408,10 @@ p {
 
 .button {
   display: inline-block;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   font-weight: 400;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 15px 30px;
   cursor: pointer;
   border: 2px solid #4267b2; }
   .button--primary {
@@ -533,12 +534,6 @@ p {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover; }
-  .hero #img2, .hero #img6, .hero #img9, .hero #img13 {
-    margin-top: 40px; }
-  .hero #img3, .hero #img5, .hero #img10, .hero #img12 {
-    margin-top: 80px; }
-  .hero #img4, .hero #img11 {
-    margin-top: 120px; }
   .hero__button:visited, .hero__button:active, .hero__button:link {
     text-decoration: none; }
 
@@ -701,7 +696,39 @@ p {
     margin-right: 0; }
 
 .footer {
-  height: 300px; }
+  background: #f0f0f0; }
+  .footer__content {
+    border-bottom: 1px solid #ddd;
+    padding: 50px 0;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between; }
+  .footer__title {
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 0 0 10px 0; }
+  .footer__list {
+    margin: 0;
+    list-style: none;
+    list-style-type: none;
+    font-size: 0.9rem;
+    padding: 0; }
+  .footer__link {
+    margin-bottom: 10px; }
+  .footer__logo {
+    width: 400px;
+    height: 120px;
+    background-image: url("../img/logo_centered.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-self: center; }
+  .footer__address {
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0; }
   .footer__credit {
     font-size: 0.5rem; }
     .footer__credit a {
